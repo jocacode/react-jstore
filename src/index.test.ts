@@ -1,11 +1,7 @@
-import { add, sub } from './';
+import { createStore } from './';
 
-describe('Utility | Main', () => {
-  it('add - should add the given two numbers', async () => {
-    expect(add(4, 2)).toEqual(6);
-  });
-
-  it('sub - should subtract the given two numbers', async () => {
-    expect(sub(4, 2)).toEqual(2);
+describe('createStore', () => {
+  it('createStore - should create external store', async () => {
+    expect(createStore(() => ({})));
   });
 });
