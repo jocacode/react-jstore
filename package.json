@@ -1,5 +1,5 @@
 {
-  "name": "react-jstore",
+  "name": "@aritonovicjovan/react-jstore",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -69,5 +69,8 @@
   "bugs": {
     "url": "https://github.com/jocacode/react-jstore/issues"
   },
-  "homepage": "https://github.com/jocacode/react-jstore#readme"
+  "homepage": "https://github.com/jocacode/react-jstore#readme",
+  "directories": {
+    "example": "example"
+  }
 }
