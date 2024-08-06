@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "rm -rf dist/ && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "watch": "vite build --watch",
     "format": "prettier --write .",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -15,7 +16,9 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vite-plugin-dts": "^4.0.0",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
